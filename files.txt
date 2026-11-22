@@ -471,3 +471,4 @@ config/xaerominimap.txt|aa69b922b841592cc5e76853a22a8649|2320
 config/xaeropatreon.txt|d41d8cd98f00b204e9800998ecf8427e|0
 config/xaeroworldmap.txt|b1b0f7a20f105f5662e3abc3cf61cf9c|445
 resourcepacks/shrift-0-standart.zip|03a5ed6dff52e700f05ac60f643ad04e|11526
+servers.dat|a13532e36c4f26784a22b1e64b2a16c5|73
