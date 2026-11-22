@@ -1,0 +1,43 @@
+name: Update files.txt
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'files.txt'
+      - '.github/**'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate files.txt
+        run: |
+          rm -f files.txt
+          touch files.txt
+          for dir in mods config resourcepacks scripts resources ntmstructs; do
+            if [ -d "$dir" ]; then
+              find "$dir" -type f | LC_ALL=C sort | while IFS= read -r file; do
+                hash=$(md5sum "$file" | awk '{print $1}')
+                size=$(stat -c%s "$file")
+                echo "$file|$hash|$size" >> files.txt
+              done
+            fi
+          done
+
+      - name: Commit and push files.txt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@://github.com"
+          git add files.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update files.txt"
+            git push
+          fi
