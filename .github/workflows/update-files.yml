@@ -30,14 +30,14 @@ jobs:
                 echo "$file|$hash|$size" >> files.txt
               done
             fi
-          done
+                    done
+          if [ -f "servers.dat" ]; then
+            hash=$(md5sum "servers.dat" | awk '{print $1}')
+            size=$(stat -c%s "servers.dat")
+            echo "servers.dat|$hash|$size" >> files.txt
+          fi
 
       - name: Commit and push files.txt
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@://github.com"
-          git add files.txt
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto-update files.txt"
-            git push
-          fi
+          git config user.email "github-actions[bot]@users.noreply.github.com"
