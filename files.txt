@@ -327,7 +327,7 @@ config/fastbench.cfg|4ed1f254d18873457d79fdcf65a4dffe|285
 config/fastfurnace.cfg|5c24adce255791a4127a0ccca22265ca|138
 config/fastleafdecay.cfg|d5691b376d15d7e9565630f55fa8f8f5|669
 config/findme.cfg|8f12fb0cee670232d7f5b585fea30c6d|137
-config/foamfix.cfg|1c972addaa4185efeee8d0b1efdba0e7|7738
+config/foamfix.cfg|1ef78044682e454cf2831acf5c05aba0|7739
 config/forge.cfg|627883070e687d47ef25b51e70100b14|3863
 config/forgeChunkLoading.cfg|255d6e9355788641e30db10e3c0b8551|2155
 config/fpsreducer/fpsreducer.cfg|7ba8322e1607b36d50cfb857dffc7711|3245
