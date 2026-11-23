@@ -5,7 +5,6 @@ mods/AEAdditions-1.12.2-1.3.8.jar|bf1a378139732c167ac6be2ca836831c|2473304
 mods/AdditionalEnchantedMiner-1.12.2-12.5.7.jar|ba24993d4c5d0a134b0852e49857a214|1993075
 mods/BNBGamingCore-1.12.2-0.11.0.jar|f083b52103eac89591ef393adc303706|130110
 mods/Baubles-1.12-1.5.2.jar|944dec4ef3fbfd4d498d94a7047af201|108450
-mods/BetterFps-1.4.8.jar|d36f4d3c0f96e99a9a1ad2e8eeda1fc4|155196
 mods/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar|9d364be3df6fee338c1729b7fb1def1b|4746208
 mods/Bookshelf-1.12.2-2.3.590.jar|85a44d3299449545e435f5ec55fc914b|266636
 mods/ChickenChunks_1.12_2.4.0.70_universal.jar|1e1d181b449a20b87856b8163e1cf4fe|133425
@@ -113,7 +112,6 @@ config/aroma1997/aromabackup.cfg|dd87628118cb3c32fb3444c85f35f274|2522
 config/aroma1997/aromabackuprecovery.cfg|4126190e033f2d5bb46e42359ed1197d|160
 config/autosprint.cfg|d07dcd30bd6d154d2762ba1dc10fdbff|1436
 config/baubles.cfg|5ca9c7547c3bdd5055d7ade4ba80998b|154
-config/betterfps.json|7f302a80dbbd73ee639ad697c07b3128|174
 config/bettersprinting.cfg|82c9d26d191fc0fa9dc4b82ffff68658|463
 config/biomesoplenty/biome_ids.json|911455659c8807600ccdc27595386f43|1549
 config/biomesoplenty/biomes/Put biome config files here|d41d8cd98f00b204e9800998ecf8427e|0
