@@ -22,6 +22,7 @@ mods/FastFurnace.jar|b84cc8a587dbd35fef2dbc3e0b9435aa|10035
 mods/FastWorkbench.jar|06eb9174804717d1f8f42366fe6002d4|26635
 mods/Fluid Craft for AE2-2.6.6-r.jar|c58975bc80fa95c798a62e946c1fdd22|686935
 mods/Forgelin-1.8.4.jar|2da79fce72265eab0541e565636d389d|6278399
+mods/FutureVersions v1.3.1.jar|e2d83e1bb81d3c4f3a1c905a52cdaade|10011886
 mods/HBM-Ruins-Pack-1.12.2_beta5.jar|c609b97c30250ccf1268d7ee25365d15|234082
 mods/Hwyla-1.8.26-B41_1.12.2.jar|bca1c069d9171d331d211d24e8a3b770|453778
 mods/JustEnoughEnergistics-1.12.2-1.0.8.jar|be626dce632db45ab61512e5a6d9cdd7|22714
