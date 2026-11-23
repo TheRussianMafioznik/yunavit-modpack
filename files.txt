@@ -35,9 +35,11 @@ mods/MultithreadedNoise.jar|b4d11488a9ef451d463470d8c975f778|11368
 mods/MyHBM-1.12.2-1.4.0.jar|05d37db4230b9421f1af7dde43c363e4|62889586
 mods/NTMstructure 1.12.2 2.0.jar|d3b23fd6e84c011243e9de18abd0b6c7|1208033
 mods/NaturesCompass-1.12.2-1.8.5.jar|3dbb990c72a185c9b9aeca7f3094eb21|196434
+mods/Nothirium-1.12.2-0.4.9-beta.jar|e85f6ee932c3ab8057ea67c8d3059599|208286
 mods/OptiFine-1.12.2_HD_U_G5.jar|92a619d468d9576a531a7ca8908669e2|2457427
 mods/ProjectE-1.12.2-PE1.4.1.jar|4601ba2741f192bcd01d132aa3e219b5|1812973
 mods/RealBench_1.12.2_1.3.3.jar|9f26fffad6c89e644ac56335cac8bcc5|17104
+mods/RenderLib-1.12.2-1.4.5.jar|c1d26d4946edd4f13543381bb368a358|290334
 mods/Surge-1.12.2-2.0.79.jar|9f495709f961117c7823827ca10df0c8|957330
 mods/TrashSlot_1.12.2_8.4.10.jar|38ee6ffc44a7fee5fe85f4bfb9976d83|59192
 mods/UniDict-1.12.2-3.0.10.jar|82e3fc598749e2cf620cff62f10d9edd|225385
@@ -443,7 +445,7 @@ config/trinkets/Trinkets_And_Baubles.cfg|1021f29fea183dca152e984729bd43fb|102057
 config/unidict/IntegrationModule.cfg|17b513ded206fddc8088cbb128f5bc46|733
 config/unidict/ModConfigModule.cfg|989ddc05df2093c9adfa852636fe749c|85
 config/unidict/UniDict.cfg|bb8d4e289cdb8e9a1dbc2c6c2e714f36|8697
-config/vanillafix.cfg|4ea66c5d21327ffd3e9a102ba7598fd7|437
+config/vanillafix.cfg|6e330af894eb393e8f1291f886c1134e|438
 config/vanillafix/config_version|c4ca4238a0b923820dcc509a6f75849b|1
 config/waila/theme/dark.json|91f7d992164fa6c216f5a23059b2137a|137
 config/waila/theme/vanilla.json|93f67ec8cc14f861d01b4b930b49525b|140
